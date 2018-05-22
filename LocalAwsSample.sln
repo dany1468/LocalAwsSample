@@ -5,6 +5,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{47E03345-BDE2-407D-A70F-1C4733908D6C}"
 ProjectSection(SolutionItems) = preProject
 	appveyor.yml = appveyor.yml
+	docker-compose.yml = docker-compose.yml
 EndProjectSection
 EndProject
 Global

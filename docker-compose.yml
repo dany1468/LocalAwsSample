@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  localstack-s3:
+    image: atlassianlabs/localstack:latest
+    environment:
+      - SERVICES=s3:5000
+      - DEFAULT_REGION=us-east-1
+      - HOSTNAME=localstack-s3
+    ports:
+      - "5000:5000"
